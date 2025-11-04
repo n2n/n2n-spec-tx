@@ -5,7 +5,7 @@
 	"keywords" : [
 		"n2n",
 		"framework",
-        "Transaction Isolation Level"
+        "transaction"
 	],
 	"homepage" : "https://n2n.rocks",
 	"license" : "LGPL-3.0-or-later",
