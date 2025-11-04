@@ -1,0 +1,4 @@
+/composer.lock
+/.idea
+/.settings
+/.phpunit.result.cache
