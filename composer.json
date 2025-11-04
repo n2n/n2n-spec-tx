@@ -1,0 +1,35 @@
+{
+	"name" : "n2n/n2n-spec-tx",
+	"type" : "library",
+	"description" : "Specifies an abstraction of transaction mechanism used in n2n",
+	"keywords" : [
+		"n2n",
+		"framework",
+        "Transaction Isolation Level"
+	],
+	"homepage" : "https://n2n.rocks",
+	"license" : "LGPL-3.0-or-later",
+	"authors" : [
+        {
+			"name" : "David Meier",
+			"email" : "meier@hnm.ch",
+			"homepage" : "https://www.hnm.ch/de/agentur/team/meier"
+		}
+	],
+	"minimum-stability" : "dev",
+	"prefer-stable" : true,
+	"config" : {
+		"vendor-dir" : "src/vendor"
+	},
+	"require" : {
+        "php": ">=8.3"
+    },
+    "require-dev": {
+        "n2n/n2n-util": "^7.4"
+    },
+	"autoload" : {
+		"psr-4" : {
+			"n2n\\spec\\tx\\" : "src/app/n2n/spec/tx"
+		}
+	}
+}
